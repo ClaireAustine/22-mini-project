@@ -9,17 +9,38 @@
 
 <body>
     <header>
-      <nav class="text-right">
+      <nav class="Contact Info">
         <ul>
             <li> <a href="https://github.com/">Github</a></li>
             <li> <a href="#">Portfolio</a></li>
             <li> <a href="Claire@koke.org">Contact Me</a></li>
         </ul>  
-      </nav>  
+      </nav>
     </header>
 
     <main>
-        <h1>My first Website</h1>
+        <h1 class="Title">My first Website</h1>
+        <figure> 
+            <img src="Claire-Koke.jpeg" width=126.8 height=156.1 alt="Photo of me">
+            <figcaption class="Title">Photo of me.</figcaption>
+        </figure>
+        <section id="contact">
+            <h2 class="Contact Info">Contact Info</h2>
+            <form>
+                <ul>
+                    <li>
+                        <label class="Contact Info" for="name">Name:</label>
+                        <input type="text" id="name" name="user-name">
+                    </li>
+                    <li>
+                        <label class="Contact Info" for="email">Email:</label>
+                        <input type="text" id="email" name="user-email">
+                    </li>
+                </ul>
+                <div class="Title">
+                    <button type="submit">SEND</button>
+                </div>
+            </form>
+        </section>
     </main>
-    
 </body>
